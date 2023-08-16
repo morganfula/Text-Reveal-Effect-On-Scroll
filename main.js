@@ -40,7 +40,6 @@ const revealSpans = () => {
 				1 - (top * 0.01 + left * 0.001) < 0.1
 					? 0.1
 					: 1 - (top * 0.01 + left * 0.001).toFixed(3);
-
 			opacityValue = opacityValue > 1 ? 1 : opacityValue.toFixed(3);
 			spans[i].style.opacity = opacityValue;
 		}
