@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.19"
   }
 }
